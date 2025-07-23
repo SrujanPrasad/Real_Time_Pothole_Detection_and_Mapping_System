@@ -7,8 +7,8 @@
 #include <HTTPClient.h>
 
 // WiFi Credentials
-const char* ssid = "srujan";
-const char* password = "12345678";
+const char* ssid = "Wifi_SSID";
+const char* password = "Wifi_Password";
 
 // ThingSpeak API Key
 const char* server = "http://api.thingspeak.com/update";
