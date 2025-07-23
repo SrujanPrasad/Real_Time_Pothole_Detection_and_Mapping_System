@@ -56,14 +56,20 @@ Below is the flowchart of the same :
 ![WhatsApp Image 2025-07-07 at 21 55 01_5765713d](https://github.com/user-attachments/assets/fd8eed81-b6ce-4d92-9a21-4c791a0b62dc) 
 
 
-
-
-
-
-
 ## Key Outcomes 
 - Detection Accuracy: GPS logs within ±5m accuracy.
 - Web Interface: Real-time map updates with pothole locations.
 - Cost-Effective: Built with readily available components under a student budget 
 - Scalable: Easily deployable in urban or rural settings 
 - Impact: Enables faster repairs, reduces accident risks, and supports smart infrastructure
+
+## Future Scope 
+- AI Integration – Use of ML to reduce false positives. 
+- Camera Module – Visual validation of potholes. 
+- Mobile App/Web Dashboard – For authorities and the public.
+
+## Conclusion 
+This project demonstrates the feasibility of a real-time, IoT-based pothole detection system. With 
+accurate detection, reliable logging, and simple visualization, it contributes to smarter, safer 
+urban infrastructure. The prototype forms a practical base for scaling into full-fledged smart 
+city solutions.
