@@ -1,0 +1,31 @@
+#define ENA 25   // Motor A speed control
+#define IN1 26   // Motor A direction control
+#define IN2 27
+#define ENB 14   // Motor B speed control
+#define IN3 12   // Motor B direction control
+#define IN4 13
+
+void setup() {
+  pinMode(ENA, OUTPUT);
+  pinMode(IN1, OUTPUT);
+  pinMode(IN2, OUTPUT);
+  pinMode(ENB, OUTPUT);
+  pinMode(IN3, OUTPUT);
+  pinMode(IN4, OUTPUT);
+}
+
+void loop() {
+  // Test Motor A forward
+
+
+  digitalWrite(IN1, LOW);   // Set IN1 of Motor A to HIGH
+digitalWrite(IN2,HIGH);    // Set IN2 of Motor A to LOW
+analogWrite(ENA, 200);     // Set Motor A speed to 150 (out of 255, a medium speed)
+
+digitalWrite(IN3, LOW);   // Set IN3 of Motor B to HIGH
+digitalWrite(IN4, HIGH);    // Set IN4 of Motor B to LOW
+analogWrite(ENB, 200);     // Set Motor B speed to 100 (out of 255, a lower speed)
+
+  delay(5000);
+
+}
